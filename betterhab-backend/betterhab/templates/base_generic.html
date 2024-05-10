@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}BetterHab{% endblock %}</title>
+    <link rel="stylesheet" href="path/to/your/styles.css">
+</head>
+<body>
+    <header>
+        <h1>BetterHab Platform</h1>
+    </header>
+    <main>
+        {% block content %}
+        <!-- Page-specific content will be rendered here -->
+        {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 BetterHab</p>
+    </footer>
+</body>
+</html>
