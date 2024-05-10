@@ -1,0 +1,9 @@
+{% extends "base_generic.html" %}
+{% block content %}
+    <h2>Welcome, {{ user.username }}!</h2>
+    <ul>
+        <li><a href="#">Teaching Section</a></li>
+        <li><a href="#">Student Section</a></li>
+    </ul>
+    <a href="{% url 'logout' %}">Logout</a>
+{% endblock %}
