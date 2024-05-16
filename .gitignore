@@ -14,14 +14,15 @@ ios/
 
 # General
 .DS_Store
+
 # For backend
-echo "db.sqlite3" >> betterhab-backend/.gitignore
-echo "__pycache__/" >> betterhab-backend/.gitignore
+betterhab-backend/db.sqlite3
+betterhab-backend/__pycache__/
 
 # For frontend-mobile
-echo "node_modules/" >> betterhab-frontend-mobile/.gitignore
-echo "build/" >> betterhab-frontend-mobile/.gitignore
+betterhab-frontend-mobile/node_modules/
+betterhab-frontend-mobile/build/
 
 # For frontend-pc
-echo "node_modules/" >> betterhab-frontend-pc/.gitignore
-echo "build/" >> betterhab-frontend-pc/.gitignore
+betterhab-frontend-pc/node_modules/
+betterhab-frontend-pc/build/
