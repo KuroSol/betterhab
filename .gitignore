@@ -1,0 +1,16 @@
+# Python
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Node.js
+node_modules/
+
+# React Native
+*.log
+*.lock
+android/
+ios/
+
+# General
+.DS_Store
